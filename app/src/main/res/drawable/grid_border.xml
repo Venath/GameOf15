@@ -1,0 +1,9 @@
+<!-- grid_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#AAAAAAAf" />
+    <stroke
+        android:width="2dp"
+    android:color="#AAAAAAAf" />
+    <corners android:radius="0dp" /> <!-- Optional: Round corners -->
+</shape>

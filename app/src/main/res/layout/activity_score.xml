@@ -1,0 +1,134 @@
+<!-- activity_score.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background"
+   >
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/highScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="High Scores"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/two"
+        android:textColor="@color/white"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="2 ✖ 2"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lowestTimeTextView2"
+        android:textColor="@color/white"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best Time:"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/lastTimeTextView2"
+        android:textColor="@color/white"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Last Completion Time:"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/three"
+        android:textColor="@color/white"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="3 ✖ 3"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lowestTimeTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best Time :"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/lastTimeTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Completion Time:"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/four"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="4 ✖ 4"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lowestTimeTextView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best Time:"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/lastTimeTextView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Completion Time:"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/gridLayout"
+        android:textSize="25sp"
+
+        android:text="Back"
+        android:onClick="back"
+        />
+
+
+
+
+
+</LinearLayout>
